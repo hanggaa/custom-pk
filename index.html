@@ -152,7 +152,6 @@
 
       input3.oninput = () => {
         if (input3.value > 100) input3.value = 100;
-        if (input3.value < 1) input3.value = 1;
         state.numberOfWallets = parseInt(input3.value);
         hashNow();
       };
